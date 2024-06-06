@@ -1,5 +1,7 @@
 #the problem is to search a target element through a sorted list and return its index.
 #integers in the array are unique.
+#approach using binary search algorithm to achieve the contraint of O(log n).
+
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         l , r = 0, len(nums) - 1
